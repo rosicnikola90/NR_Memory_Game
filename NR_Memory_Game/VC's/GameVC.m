@@ -46,7 +46,7 @@ float _timeForGame = 0;
     [[NSRunLoop mainRunLoop] addTimer:self.gameTimer forMode:NSRunLoopCommonModes];
     
     //_timeForGame = 100.00;
-    [self.gameManager setMatchedPairs:7];
+    //[self.gameManager setMatchedPairs:7];
 }
 
 #pragma mark <UICollectionViewDataSource>
